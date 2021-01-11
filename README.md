@@ -19,12 +19,12 @@ git clone https://github.com/anthlis/fastapi-html-basic.git
 Navigate to [127.0.0.1:8080/](http://127.0.0.1:8080/). You should see a 'hello world'.
 
 Then try out [127.0.0.1:8080/form](http://127.0.0.1:8080/form). 
-Enter an integer number and see the result spelled out in words.
+Enter an integer number and see the result spelled out in words below.
 
 Example:
 ![fastapi-html-app](app.png)
 
 FastAPI auto generates API Swagger documentation too:  
-Navigate to [127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to review and try it out. 
+Navigate to [127.0.0.1:8080/docs](http://127.0.0.1:8080/docs) to review and try it out. 
 
-![fastapi-html-docs](https://raw.githubusercontent.com/anthlis/fastapi-html-basic/docs.png)
+![fastapi-html-docs](docs.png)
