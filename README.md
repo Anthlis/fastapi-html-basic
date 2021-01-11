@@ -5,6 +5,9 @@ A very basic sample repo demonstrating how to use `FastAPI` to serve HTML web ap
 ## quickstart
 
 ```
+# Create a virtual environment, and activate it
+$ python3 -m venv .env
+
 # clone this repo:
 git clone https://github.com/anthlis/fastapi-html-basic.git
 
