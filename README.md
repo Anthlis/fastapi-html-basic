@@ -5,7 +5,7 @@ A very basic sample repo demonstrating how to use `FastAPI` to serve HTML web ap
 ## quickstart
 
 ```
-# Create a virtual environment, and activate it
+# Create a virtual environment in your project folder, and activate it
 $ python3 -m venv .env
 
 # clone this repo:
