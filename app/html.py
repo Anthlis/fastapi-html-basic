@@ -7,13 +7,6 @@ app = FastAPI()
 templates = Jinja2Templates(directory='templates/')
 
 
-def save_to_text(content, filename):
-    filepath = 'data/{}.txt'.format(filename)
-    with open(filepath, 'w') as f:
-        f.write(content)
-    return filepath
-
-
 @app.get('/')
 def read_form():
     return 'hello world'
