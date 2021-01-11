@@ -19,7 +19,7 @@ git clone https://github.com/anthlis/fastapi-html-basic.git
 Navigate to [127.0.0.1:8080/](http://127.0.0.1:8080/). You should see a 'hello world'.
 
 Then try out [127.0.0.1:8080/form](http://127.0.0.1:8080/form). 
-Enter an integer number and see the result spelled out in words below.
+Enter an integer number and see the result spelled out in words below the box in your browser.
 
 Example:
 ![fastapi-html-app](app.png)
