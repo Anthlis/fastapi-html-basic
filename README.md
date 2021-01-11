@@ -12,17 +12,17 @@ git clone https://github.com/anthlis/fastapi-html-basic.git
 (.env) $ pip install -r requirements.txt
 
 # start the HTML app
-(Note to self, do not 'run' in PyCharm as if it's a Flask app!
+(Note to self, do not 'run' in PyCharm as if it's a Flask app!)
 (.env) $ uvicorn app.html:app --reload --port 8080
 ```
 
 Navigate to [127.0.0.1:8080/](http://127.0.0.1:8080/). You should see a 'hello world'.
 
-Then try out [127.0.0.1:8000/form](http://127.0.0.1:8000/form). 
+Then try out [127.0.0.1:8080/form](http://127.0.0.1:8080/form). 
 Enter an integer number and see the result spelled out in words.
 
 Example:
-![fastapi-html-form](https://raw.githubusercontent.com/anthlis/fastapi-html-basic/app.png)
+![fastapi-html-app](app.png)
 
 FastAPI auto generates API Swagger documentation too:  
 Navigate to [127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to review and try it out. 
